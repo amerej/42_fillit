@@ -6,7 +6,7 @@
 /*   By: aditsch <aditsch@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/11 13:10:11 by aditsch           #+#    #+#             */
-/*   Updated: 2016/11/12 16:36:30 by aditsch          ###   ########.fr       */
+/*   Updated: 2016/11/15 21:19:41 by aditsch          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,7 +51,7 @@ int		ft_get_tetri(int fd, char *tetri)
 	return (count);
 }
 
-void	ft_set_tetri(char *str_tetri, char nb_tetris, t_tetri **list)
+void	ft_set_tetri(char *str_tetri, int nb_tetris, t_tetri **list)
 {
 	int			i;
 	int			j;

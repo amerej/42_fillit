@@ -6,7 +6,7 @@
 /*   By: aditsch <aditsch@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/11/11 13:15:22 by aditsch           #+#    #+#             */
-/*   Updated: 2016/11/12 16:35:22 by aditsch          ###   ########.fr       */
+/*   Updated: 2016/11/15 20:59:24 by aditsch          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,7 +53,7 @@ void	ft_delete_tetri(char *map, t_tetri *tetri)
 	}
 }
 
-int		ft_depl_tetri(char *map, t_tetri *tetri, char size)
+int		ft_depl_tetri(char *map, t_tetri *tetri, int size)
 {
 	if (tetri == NULL)
 		return (TRUE);

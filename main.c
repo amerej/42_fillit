@@ -6,7 +6,7 @@
 /*   By: aditsch <aditsch@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/09/16 10:08:08 by aditsch           #+#    #+#             */
-/*   Updated: 2016/11/12 16:37:32 by aditsch          ###   ########.fr       */
+/*   Updated: 2016/11/15 21:19:31 by aditsch          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,15 +14,16 @@
 
 int		main(int argc, char *argv[])
 {
-	char		nb_tetris;
+	int			nb_tetris;
 	int			fd;
-	char		size;
+	int			size;
 	char		str_tetri[BUF_SIZE + 1];
 	char		map[MAX_SIZE * MAX_SIZE];
 	t_tetri		*tetri;
 
 	nb_tetris = 0;
 	size = 0;
+	tetri = NULL;
 	if (argc == 2)
 	{
 		if ((fd = open(argv[1], O_RDONLY)) != -1)
